@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Rifky Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-gold selection:text-navy">
+
+    <!-- Navigation (Subpages) -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 bg-navy text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="../index.html" class="text-2xl font-heading font-bold tracking-tighter">
+                        RIF<span class="text-gold">KY</span>.
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="../index.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Home</a>
+                    <a href="about.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">About</a>
+                    <a href="experience.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Experience</a>
+                    <a href="expertise.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Expertise</a>
+                    <a href="projects.html" class="nav-link text-gold transition-colors font-medium text-sm tracking-wide">Projects</a>
+                    <a href="research.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Research</a>
+                    <a href="insights.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Insights</a>
+                    <a href="contact.html" class="ml-4 px-5 py-2.5 border-2 border-gold text-gold hover:bg-gold hover:text-navy font-semibold rounded transition-all duration-300 text-sm">Contact</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-white hover:text-gold focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-light shadow-xl absolute w-full left-0 top-full border-t border-slate-700">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="../index.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Home</a>
+                <a href="about.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">About</a>
+                <a href="experience.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Experience</a>
+                <a href="expertise.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Expertise</a>
+                <a href="projects.html" class="block px-3 py-3 text-base font-medium text-gold hover:bg-navy transition-colors w-full text-center">Projects</a>
+                <a href="research.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Research</a>
+                <a href="insights.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Insights</a>
+                <a href="contact.html" class="block mt-4 px-5 py-3 border border-gold text-gold hover:bg-gold hover:text-navy font-semibold rounded transition-colors text-center w-3/4 mx-auto">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="min-h-screen pt-24">
+        
+        <!-- Page Header -->
+        <section class="bg-navy py-16 md:py-24 border-t border-slate-800 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center fade-up">
+                    <p class="text-gold font-medium uppercase tracking-widest mb-2 text-sm">Portfolio</p>
+                    <h1 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4">Major Projects</h1>
+                    <div class="w-24 h-1 bg-gold mx-auto"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-100 group premium-card fade-up">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1690&auto=format&fit=crop" alt="Supply Chain Finance" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-navy-light text-gold text-xs font-bold rounded-full uppercase tracking-wider">Implementation</span>
+                                <span class="text-slate-400 text-sm"><i class="far fa-calendar-alt mr-1"></i> 2022 - 2023</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-3 group-hover:text-gold transition-colors">Supply Chain Finance Implementation</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Led the end-to-end framework design and deployment of a comprehensive Supply Chain Finance solution for a top-tier manufacturing conglomerate. The project involved digitizing the invoicing process and providing immediate liquidity to over 500 SME suppliers.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-navy font-bold hover:text-gold transition-colors">
+                                View Case Study <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-100 group premium-card fade-up delay-100">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                            <img src="https://images.unsplash.com/photo-1542744094-24638ea0b3b5?q=80&w=1770&auto=format&fit=crop" alt="Distributor Finance" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-navy-light text-gold text-xs font-bold rounded-full uppercase tracking-wider">Development</span>
+                                <span class="text-slate-400 text-sm"><i class="far fa-calendar-alt mr-1"></i> 2021</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-3 group-hover:text-gold transition-colors">Distributor Finance Program</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Engineered a specialized financing structure for the distribution network of a leading multinational FMCG company. The program secured the supply chain, minimized default risk via corporate guarantees, and enhanced the working capital cycles for distributors.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-navy font-bold hover:text-gold transition-colors">
+                                View Case Study <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-100 group premium-card fade-up">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1770&auto=format&fit=crop" alt="Islamic Banking Products" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-navy-light text-gold text-xs font-bold rounded-full uppercase tracking-wider">Innovation</span>
+                                <span class="text-slate-400 text-sm"><i class="far fa-calendar-alt mr-1"></i> 2020</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-3 group-hover:text-gold transition-colors">Sharia-Compliant Product Innovation</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Directed the conceptualization and launch of a suite of new Mudarabah and Ijarah based retail banking products. Involved in extensive coordination with the Sharia Supervisory Board to ensure 100% compliance while maintaining market competitiveness.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-navy font-bold hover:text-gold transition-colors">
+                                View Case Study <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-100 group premium-card fade-up delay-100">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="absolute inset-0 bg-navy/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="SME Digital Transformation" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="px-3 py-1 bg-navy-light text-gold text-xs font-bold rounded-full uppercase tracking-wider">Transformation</span>
+                                <span class="text-slate-400 text-sm"><i class="far fa-calendar-alt mr-1"></i> 2019</span>
+                            </div>
+                            <h3 class="text-2xl font-heading font-bold text-navy mb-3 group-hover:text-gold transition-colors">SME Portal Digitization</h3>
+                            <p class="text-slate-600 mb-6 leading-relaxed">
+                                Acted as the SME domain expert for the bank's digital transformation initiative. Contributed to the design of a specialized online portal enabling SME clients to initiate loan requests, manage trade finance instruments, and monitor portfolio health digitally.
+                            </p>
+                            <a href="#" class="inline-flex items-center text-navy font-bold hover:text-gold transition-colors">
+                                View Case Study <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Subpages) -->
+    <footer class="bg-navy border-t border-slate-800 text-white pt-16 pb-8 border-t-[5px] border-t-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <a href="../index.html" class="text-3xl font-heading font-bold tracking-tighter block mb-4">
+                        RIF<span class="text-gold">KY</span>.
+                    </a>
+                    <p class="text-slate-light text-sm leading-relaxed mb-6">
+                        Senior Banking Professional.<br>Islamic Finance Specialist.<br>MBA.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Navigation</h4>
+                    <ul class="space-y-3">
+                        <li><a href="../index.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Home</a></li>
+                        <li><a href="about.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> About</a></li>
+                        <li><a href="experience.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Experience</a></li>
+                        <li><a href="expertise.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Expertise</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Discover</h4>
+                    <ul class="space-y-3">
+                        <li><a href="projects.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Projects</a></li>
+                        <li><a href="research.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Research</a></li>
+                        <li><a href="insights.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Insights</a></li>
+                        <li><a href="contact.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-gold"></i>
+                            <span class="text-slate-light text-sm">Colombo<br>Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-gold"></i>
+                            <a href="mailto:mnmrifky@gmail.com" class="text-slate-light hover:text-gold transition-colors text-sm">mnmrifky@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-slate-500 text-sm mb-4 md:mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Rifky Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

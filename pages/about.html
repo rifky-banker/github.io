@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Rifky | Senior Banking Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-gold selection:text-navy">
+
+    <!-- Navigation (Subpages) -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 bg-navy text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="../index.html" class="text-2xl font-heading font-bold tracking-tighter">
+                        RIF<span class="text-gold">KY</span>.
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="../index.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Home</a>
+                    <a href="about.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">About</a>
+                    <a href="experience.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Experience</a>
+                    <a href="expertise.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Expertise</a>
+                    <a href="projects.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Projects</a>
+                    <a href="research.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Research</a>
+                    <a href="insights.html" class="nav-link hover:text-gold transition-colors font-medium text-sm tracking-wide">Insights</a>
+                    <a href="contact.html" class="ml-4 px-5 py-2.5 border-2 border-gold text-gold hover:bg-gold hover:text-navy font-semibold rounded transition-all duration-300 text-sm">Contact</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-white hover:text-gold focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-navy-light shadow-xl absolute w-full left-0 top-full border-t border-slate-700">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="../index.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Home</a>
+                <a href="about.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">About</a>
+                <a href="experience.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Experience</a>
+                <a href="expertise.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Expertise</a>
+                <a href="projects.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Projects</a>
+                <a href="research.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Research</a>
+                <a href="insights.html" class="block px-3 py-3 text-base font-medium text-white hover:text-gold hover:bg-navy transition-colors w-full text-center">Insights</a>
+                <a href="contact.html" class="block mt-4 px-5 py-3 border border-gold text-gold hover:bg-gold hover:text-navy font-semibold rounded transition-colors text-center w-3/4 mx-auto">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="min-h-screen pt-24 bg-slate-50">
+        
+        <!-- Page Header -->
+        <section class="bg-navy py-16 md:py-24 border-t border-slate-800 relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="text-center fade-up">
+                    <p class="text-gold font-medium uppercase tracking-widest mb-2 text-sm">Discover</p>
+                    <h1 class="text-4xl md:text-5xl font-heading font-bold text-white mb-4">About Me</h1>
+                    <div class="w-24 h-1 bg-gold mx-auto"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Biography Section -->
+        <section class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row gap-16 items-start">
+                    
+                    <!-- Image Column -->
+                    <div class="w-full lg:w-5/12 fade-up">
+                        <div class="relative group">
+                            <!-- Professional Photo -->
+                            <div class="absolute inset-0 bg-gold translate-x-4 translate-y-4 rounded-xl transition-transform group-hover:translate-x-6 group-hover:translate-y-6 duration-300"></div>
+                            <img src="../images/rifky-professional.png" alt="Rifky - Senior Banking Professional" class="relative z-10 w-full h-[600px] object-cover rounded-xl shadow-2xl transition-all duration-500">
+                        </div>
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="w-full lg:w-7/12 fade-up delay-100">
+                        <h2 class="text-3xl font-heading font-bold text-navy mb-6">Professional Biography</h2>
+                        <div class="prose prose-lg text-slate-600 mb-10 max-w-none">
+                            <p class="leading-relaxed mb-4">
+                                I am Rifky, an accomplished Senior Banking Professional with extensive experience spanning across prestigious international banking institutions in Sri Lanka. Throughout my 19+ year career, I have cultivated a deep expertise in Islamic Finance, SME Banking, and Supply Chain Finance.
+                            </p>
+                            <p class="leading-relaxed mb-4">
+                                My approach to banking is rooted in a strategic blend of traditional financial acumen and innovative product development. This duality allows me to structure solutions that not only meet complex client requirements but also adhere strictly to regulatory frameworks and inclusive banking principles.
+                            </p>
+                            <p class="leading-relaxed mb-4">
+                                Currently pursuing a Doctorate with a research focus on Green Banking, and holding an MBA from Cardiff Metropolitan University, I am committed to advancing sustainable financial ecosystems. My academic pursuits directly inform my professional practice, particularly in driving digital transformation strategies within the commercial banking sector.
+                            </p>
+                        </div>
+
+                        <!-- Philosophy Highlight -->
+                        <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-gold relative">
+                            <i class="fas fa-quote-left absolute top-8 left-8 text-4xl text-slate-100 -z-0"></i>
+                            <h3 class="text-xl font-heading font-bold text-navy mb-3 relative z-10">Professional Philosophy</h3>
+                            <p class="text-slate-600 italic relative z-10">
+                                "To empower economic growth by Engineering innovative, transparent, and inclusive financial solutions that bridge the gap between institutional capabilities and client aspirations."
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Skills Section -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 fade-up">
+                    <h2 class="text-3xl font-heading font-bold text-navy mb-4">Core Competencies</h2>
+                    <p class="text-slate-600 max-w-2xl mx-auto">A blend of hard technical skills and leadership capabilities forged through years of industry experience.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+                    <!-- Skill 1 -->
+                    <div class="fade-up">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">Islamic Banking & Finance</span>
+                            <span class="text-gold font-bold">95%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="fade-up delay-100">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">SME Banking Strategy</span>
+                            <span class="text-gold font-bold">90%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="fade-up delay-200">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">Supply Chain Finance</span>
+                            <span class="text-gold font-bold">88%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="fade-up delay-300">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">Financial Product Innovation</span>
+                            <span class="text-gold font-bold">85%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Skill 5 -->
+                    <div class="fade-up delay-100">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">Team Leadership</span>
+                            <span class="text-gold font-bold">92%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 92%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="fade-up delay-200">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-navy">Regulatory Compliance</span>
+                            <span class="text-gold font-bold">88%</span>
+                        </div>
+                        <div class="w-full bg-slate-200 rounded-full h-2">
+                            <div class="bg-navy h-2 rounded-full" style="width: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Subpages) -->
+    <footer class="bg-navy border-t border-slate-800 text-white pt-16 pb-8 border-t-[5px] border-t-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <a href="../index.html" class="text-3xl font-heading font-bold tracking-tighter block mb-4">
+                        RIF<span class="text-gold">KY</span>.
+                    </a>
+                    <p class="text-slate-light text-sm leading-relaxed mb-6">
+                        Senior Banking Professional.<br>Islamic Finance Specialist.<br>MBA.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-navy-light flex items-center justify-center text-slate-light hover:bg-gold hover:text-navy transition-all"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Navigation</h4>
+                    <ul class="space-y-3">
+                        <li><a href="../index.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Home</a></li>
+                        <li><a href="about.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> About</a></li>
+                        <li><a href="experience.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Experience</a></li>
+                        <li><a href="expertise.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Expertise</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Discover</h4>
+                    <ul class="space-y-3">
+                        <li><a href="projects.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Projects</a></li>
+                        <li><a href="research.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Research</a></li>
+                        <li><a href="insights.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Insights</a></li>
+                        <li><a href="contact.html" class="text-slate-light hover:text-gold transition-colors text-sm flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-gold"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-heading font-bold mb-6 text-white border-b border-slate-700 pb-2 inline-block">Contact</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-gold"></i>
+                            <span class="text-slate-light text-sm">Colombo<br>Sri Lanka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-gold"></i>
+                            <a href="mailto:mnmrifky@gmail.com" class="text-slate-light hover:text-gold transition-colors text-sm">mnmrifky@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-slate-500 text-sm mb-4 md:mb-0">&copy; <script>document.write(new Date().getFullYear())</script> Rifky Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
